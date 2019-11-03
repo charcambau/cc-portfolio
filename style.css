@@ -1,0 +1,277 @@
+/* IMPORT THE FONTS */
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+
+/* BASE STYLE */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f1e2d8;
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Nunito', sans-serif;
+  color: #360ea4;
+  overflow-x: hidden;
+}
+
+.page__h1 {
+  margin: 0;
+  font-family: 'titling-gothic-fb', sans-serif;
+  font-weight: bold;
+  font-size: 5em;
+}
+
+.page__h2 {
+  margin: 0;
+  font-family: 'titling-gothic-fb', sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+/* HAS SHADOW */
+.has-shadow {
+  position: relative;
+
+  cursor: pointer;
+  padding: 8px 10px;
+  border: 1px solid black;
+  background-color: #FFFDF4;
+}
+
+.has-shadow:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  top: 3px;
+  left: 3px;
+  z-index: -1;
+
+  border: 1px solid black;
+  background-color: #FFFDF4;
+}
+
+.has-shadow:hover:after {
+  background-color: #360ea4;
+}
+
+/* RECURRING ELEMENTS */
+
+.header {
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+  align-items: start;
+  grid-template-rows: 20% 80%;
+  grid-template-columns: 100%;
+}
+
+.nav {
+  width: 100%;
+  margin: 0 10px;
+  position: fixed;
+  z-index: 2;
+
+  display: grid;
+  grid-template-columns: 55% 15% 15% 15%;
+  justify-content: end;
+}
+
+.nav__item {
+  max-width: 130px;
+  margin: 0 5px;
+  padding: 8px 10px;
+
+  border-radius: 0;
+  color: #360ea4;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.nav__about {
+  grid-column: 2/3;
+}
+
+.nav__work {
+  grid-column: 3/4;
+}
+
+.nav__contact {
+  grid-column: 4/5;
+}
+
+.page_title-subtitle {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  text-align: left;
+}
+
+.page__title, .page__subtitle {
+  margin-left: 20%;
+  width: fit-content;
+  grid-column: 2/3;
+
+  text-align: left;
+}
+
+.page__title {
+  margin-bottom: 0;
+}
+
+.page__subtitle {
+  font-size: 2em;
+}
+
+/* SCROLL ------- WORK */
+
+.home__work {
+  width: 100%;
+  margin: 0 auto;
+  min-height: 820px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.work__section-description {
+  height: 100%;
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: 90% 10% ;
+  grid-template-rows: 100%;
+}
+
+.h2__work {
+  text-align: left;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.work__section-description p {
+  width: fit-content;
+  height: fit-content;
+  margin: 0;
+  margin-top: 80px;
+
+  text-align: left;
+
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.here {
+  display: block;
+
+  margin-top: 15px;
+
+  width: fit-content;
+  padding: 10px 20px;
+
+  text-decoration: none;
+  color: #360ea4;
+}
+
+.section__work:hover {
+  cursor: pointer; 
+}
+
+.section__work {
+  width: 100%;
+}
+
+.work__title {
+  position: relative;
+  width: fit-content;
+  margin: 10px;
+  padding: 10px 20px;
+
+  font-family: 'titling-gothic-fb', sans-serif;
+  font-weight: 700;
+  font-size: 1.3em;
+  color: #f1e2d8;
+  text-align: center;
+
+  background-color: #360ea4;
+}
+
+.work__one {
+  background-image: url(images/ThroughHerEyes/display-unzoomed.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border: 2px solid black;
+  border-bottom: none;
+}
+
+.work__two {
+  background-color: blue;
+  background-image: url(images/313/unisex.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border: 2px solid black;
+  border-right: none;
+}
+
+.work__three {
+  background-image: url(images/TheFork/thefork-line-high.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border: 2px solid black;
+}
+
+.work__title:hover:after {
+  background-color: #360ea4;
+}
+
+.see-more {
+  width: fit-content;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 20px 40px;
+
+  grid-column: 2/3;
+  justify-self: end;
+
+  text-decoration: none;
+  color: #360ea4;
+}
+
+.see-more:hover {
+  text-decoration-style: wavy;
+}
+
+.home__contact {
+  margin-top: 150px;
+}
+
+.contact__section-description {
+  text-align: center;
+}
+
+.home__contact a {
+  text-decoration: none;
+  color: #360ea4;
+}
+
+.home__contact a:hover {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
