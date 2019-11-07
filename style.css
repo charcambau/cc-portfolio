@@ -282,3 +282,79 @@ SCROLL -------- CONTACT
 /**********
 WORKS PAGE
 ***********/
+
+.works--section {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  margin-bottom: 185px;
+
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 100%;
+}
+
+.works-h2p {
+  grid-column: 1/2;
+
+  margin-top: 125px;
+  margin-left: 125px;
+}
+
+.small-img--container {
+  position: absolute;
+  top: 35%;
+  left: -45%;
+  width: 270px;
+  height: 270px;
+  overflow: hidden;
+}
+
+.img--works-section {
+  width: 100%;
+}
+
+.img--work-three {
+  width: 80%;
+}
+
+.bg-img--container {
+  position: relative;
+  grid-column: 2/3;
+  width: 100%;
+}
+
+.bg--one {
+  background-image: url(images/factix/heron\ carousel.jpg);
+  background-size: 450px;
+  background-position-x: left;
+  background-position-y: top;
+}
+
+.bg--two {
+  background-image: url(images/313/moto-blue.png);
+  background-size: 580px;
+  background-position-x: right;
+  background-position-y: center;
+}
+
+.bg--three {
+  background-image: url(images/TheFork/thefork-line-high.png);
+  background-size: 100px;
+  background-position-x: left;
+  background-position-y: center;
+}
+
+.bg--four {
+  background-image: url(images/Fendi/custom-red.png);
+  background-size: 280px;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.bg--five {
+  background-image: url(images/Ultralight/pages_7-8.png);
+  background-size: 180px;
+  background-position-x: center;
+  background-position-y: center;
+}
