@@ -459,7 +459,7 @@ PROJECT PAGES
   grid-template-columns: 5% 30% 30% 30% 5%;
 }
 
-.project--img-five, .project--img-six, .project--img-seven {
+.project--img-five, .project--img-six, .project--img-seven, .project--img-eight, .project--img-nine {
   width: 100%;
 }
 
@@ -480,6 +480,18 @@ PROJECT PAGES
 .tertiary-color:hover {
   -webkit-text-stroke-width: 0px;
   color: #98ef4e;
+}
+
+.project-img--container-eight {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.project-img--container-nine {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .end-page--links {
@@ -511,4 +523,42 @@ TRE UNO TRE
 .secondary-color__tre:hover {
   -webkit-text-stroke-width: 0px;
   color: #00ff3a;
+}
+
+/***********
+THE FORK
+***********/
+
+.thefork--img-one {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.Fork-project-img--container-two {
+  width: fit-content;
+  margin: 50px auto;
+}
+
+.video-two {
+  margin: 20px;
+}
+
+.fork--img-seven {
+  width: 155%;
+  justify-self: center;
+  z-index: -3;
+}
+
+.primary-color__fork:hover {
+  -webkit-text-stroke-width: 0px;
+  color: #1cf490;
+}
+
+.secondary-color__fork:hover {
+  -webkit-text-stroke-width: 0px;
+  color: #773dd4;
+}
+
+.fork--img-eight {
+  margin-top: 55px;
 }
