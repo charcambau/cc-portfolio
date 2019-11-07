@@ -111,7 +111,7 @@ body {
 }
 
 .page_title-subtitle {
-  margin-top: 15%;
+  margin-top: 20%;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -120,7 +120,7 @@ body {
 }
 
 .page__title, .page__subtitle {
-  margin-left: 15%;
+  margin-left: 25%;
   width: fit-content;
   grid-column: 2/3;
 
@@ -370,4 +370,145 @@ WORKS PAGE
 
   text-decoration: none;
   color: #360ea4;
+}
+
+/************
+PROJECT PAGES
+**************/
+
+.project-page__subtitle {
+  max-width: 600px;
+  font-size: 20px;
+}
+
+.project-img--container {
+  width: 90%;
+  height: 680px;
+  margin: 0 auto;
+
+  overflow: hidden;
+}
+
+.project--img-one {
+  width: 100%;
+  height: auto;
+}
+
+.project-img--container-two {
+  width: 90%;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.project--img-two {
+  width: 100%;
+}
+
+.project__about, .project__material {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 54px;
+  font-family: 'titling-gothic-fb', sans-serif;
+}
+
+.work__title--project {
+  margin-top: 20px;
+  margin-left: 50px;
+
+  text-align: right;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #360ea4;
+  font-size: 34px;
+  font-family: 'titling-gothic-fb', sans-serif;
+}
+
+.details-container {
+  width: 50%;
+  height: fit-content;
+  margin: 0 auto;
+  padding: 20px;
+
+  background-color: #f1e2d8;
+  box-shadow: 2px 2px 25px #b9707860;
+}
+
+.work__description--project {
+  color: transparent;
+}
+
+.details:hover .work__description--project {
+  color: #360ea4;
+}
+
+.project-img--container-threefour {
+  width: 100%;
+  margin-top: 85px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.project--img-three, .project--img-four {
+  width: 100%;
+}
+
+.project-img--container-fivesixseven {
+  width: 100%;
+  margin-top: 85px;
+  display: grid;
+  grid-template-columns: 5% 30% 30% 30% 5%;
+}
+
+.project--img-five, .project--img-six, .project--img-seven {
+  width: 100%;
+}
+
+.project--img-five {
+  grid-column: 2/3;
+}
+
+.primary-color:hover {
+  -webkit-text-stroke-width: 0px;
+  color: #869af7;
+}
+
+.secondary-color:hover {
+  -webkit-text-stroke-width: 0px;
+  color: #fdaa72;
+}
+
+.tertiary-color:hover {
+  -webkit-text-stroke-width: 0px;
+  color: #98ef4e;
+}
+
+.end-page--links {
+  margin-top: 50px;
+  width: 100%;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.end-page--links a {
+  padding: 10px;
+  margin: 20px;
+  text-decoration: none;
+  color: #360ea4;
+}
+
+
+/***********
+TRE UNO TRE
+***********/
+
+.primary-color__tre:hover {
+  -webkit-text-stroke-width: 0px;
+  color: #2c2cf5;
+}
+
+.secondary-color__tre:hover {
+  -webkit-text-stroke-width: 0px;
+  color: #00ff3a;
 }
