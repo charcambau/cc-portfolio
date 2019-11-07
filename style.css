@@ -315,7 +315,7 @@ WORKS PAGE
 }
 
 .img--work-three {
-  width: 80%;
+  width: 120%;
 }
 
 .bg-img--container {
@@ -333,14 +333,14 @@ WORKS PAGE
 
 .bg--two {
   background-image: url(images/313/moto-blue.png);
-  background-size: 580px;
+  background-size: 590px;
   background-position-x: right;
   background-position-y: center;
 }
 
 .bg--three {
   background-image: url(images/TheFork/thefork-line-high.png);
-  background-size: 100px;
+  background-size: 120px;
   background-position-x: left;
   background-position-y: center;
 }
@@ -354,7 +354,14 @@ WORKS PAGE
 
 .bg--five {
   background-image: url(images/Ultralight/pages_7-8.png);
-  background-size: 180px;
+  background-size: 210px;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.bg--six {
+  background-image: url(images/extras/bg-jorja.png);
+  background-size: 450px;
   background-position-x: center;
   background-position-y: center;
 }
@@ -599,10 +606,11 @@ justify-self: end;
   -webkit-text-stroke-width: 0px;
   color: #343a41;
 }
-
+/* TO FIX ON SAFARI SOMETHING DOESNT WORK HERE AND IMG IS STRETCHED */
 .fendi-project-img--container-final {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   overflow: hidden;
   margin-top: 55px;
 }
@@ -657,6 +665,10 @@ ULTRALIGHT BEAM
   -webkit-text-stroke-width: 0px;
   color: #ffffff;
 }
+
+/******
+CONTACT
+******/
 
 .contact__contact {
   margin: 0;
