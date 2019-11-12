@@ -13,10 +13,19 @@
 <body>
   <header class="header">
     <nav class="nav">
+      <a class="nav__item nav__home-link" href="index.html">Home</a>
       <a class="nav__item has-shadow nav__about" href="about.html">About</a>
       <a class="nav__item has-shadow nav__work" href="work.html">Work</a>
       <a class="nav__item has-shadow nav__contact" href="contact.html">Contact</a>
+      <p class="nav__item has-shadow nav__mobile" id="menuOpen">Menu</p>
     </nav>
+
+    <article class="has-shadow mobile--menu" id="mobileMenu">
+      <a class="mobile-menu__item mobile__home-link" href="index.html">Home</a>
+      <a class="mobile-menu__item mobile__about" href="about.html">About</a>
+      <a class="mobile-menu__item mobile__work" href="work.html">Work</a>
+      <a class="mobile-menu__item mobile__contact" href="contact.html">Contact</a>
+    </article>
 
     <section class="page_title-subtitle">
       <h1 class="page__h1 page__title">Hi.</h1>
@@ -87,6 +96,7 @@
     Designed and developped by Charlotte Cambau - 2019
   </footer>
 
+  <script src="home-script.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
