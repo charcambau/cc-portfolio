@@ -826,6 +826,10 @@ ABOUT
 /* MEDIA QUERIES  */
 
 @media (max-width: 1035px) {
+  header.header {
+    height: 40vh;
+  }
+
   .works--section {
     grid-template-columns: 50% 50%;
   }
