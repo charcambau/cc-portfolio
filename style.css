@@ -706,6 +706,60 @@ ULTRALIGHT BEAM
   color: #ffffff;
 }
 
+/************
+BITS AND BOBS
+*************/
+
+.bits--title {
+  width: 80%;
+  margin: 20px auto;
+
+  text-align: center;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #360ea4;
+  font-size: 34px;
+  font-family: 'titling-gothic-fb', sans-serif;
+}
+
+.bits-bobs--one {
+  width: 80%;
+  height: fit-content;
+  margin-top: 0px;
+
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bits-bobs--img-one {
+  width: 45%;
+}
+
+.before-after--wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bits--title-two {
+  margin-top: 85px;
+  margin-bottom: 20px;
+}
+
+.bits-bobs--four {
+  justify-content: center;
+}
+.before-after--wrapper-four {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /******
 CONTACT
 ******/
@@ -714,7 +768,6 @@ CONTACT
   margin: 0;
   margin-bottom: 85px;
 }
-
 
 
 /* MEDIA QUERIES  */
