@@ -893,32 +893,36 @@ ABOUT
   }
 
   .page_title-subtitle {
-<<<<<<< HEAD
     margin-top: 50%;
-=======
-    width: 80%;
-    margin: 100px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
->>>>>>> 25de0b78eb0b30322be5eecd06b8975238746ec6
   }
   .page_title-subtitle h1 {
-    margin: 0;
-    margin-bottom: 40px;
+    margin: 0 auto;
+    margin-bottom: 60px;
     font-size: 2em;
-    margin-bottom: 20px;
   }
   
   .page_title-subtitle p {
-    margin: 0;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
     font-size: 1em;
+  }
+
+  p {
+    padding: 0 20px;
   }
 
   .works--section {
     display: flex;
     flex-direction: column;
+  }
+
+  .page__title {
+    text-align: center;
+  }
+
+  .end-page--links a {
+    margin: 10px;
   }
 
   .small-img--container  {
@@ -944,6 +948,15 @@ ABOUT
 
   .works-four {
     margin-top: 55px;
+  }
+  
+  .project-img--container {
+    height: fit-content;
+  }
+
+  .details-container {
+    width: 80%;
+    margin: 0 auto;
   }
 
   .about--main {
