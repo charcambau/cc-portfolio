@@ -858,7 +858,7 @@ ABOUT
 
 @media (max-width: 915px) {
   header.header {
-    height: 60vh;
+    height: 100vh;
   }
   .page_title-subtitle {
     margin-top: 15%;
@@ -883,10 +883,11 @@ ABOUT
   }
 
   .page_title-subtitle {
-    margin-top: 20%;
+    margin-top: 50%;
   }
   .page_title-subtitle h1 {
     font-size: 2em;
+    margin-bottom: 20px;
   }
   
   .page_title-subtitle p {
