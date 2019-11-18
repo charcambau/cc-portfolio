@@ -306,7 +306,7 @@ SCROLL -------- CONTACT
   text-decoration-style: wavy;
 }
 
-.contact__phone, .contact__email, .contact__linkedin {
+.contact__phone, .contact__email, .contact__linkedin, .contact__behance {
   text-align: center;
   margin-top: 80px;
 }
