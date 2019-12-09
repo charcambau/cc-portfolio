@@ -776,14 +776,15 @@ BITS AND BOBS
 .jorja--one, .jorja--two {
   width: 45%;
 }
-
-.jorja--one .bits-bobs--img-one {
+/* 
+.jorja--one.bits-bobs--img-one {
   width: 100%;
 }
-.jorja--two .bits-bobs--img-one {
+
+.jorja--two.bits-bobs--img-one {
   width: 150%;
   transform: translateX(-20%);
-}
+} */
 
 .before-after--wrapper {
   width: 80%;
@@ -796,6 +797,10 @@ BITS AND BOBS
 .bits--title-two {
   margin-top: 85px;
   margin-bottom: 20px;
+}
+
+.bits-bobs--img-two {
+  width: 45%;
 }
 
 .bits-bobs--four {
