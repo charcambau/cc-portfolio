@@ -773,8 +773,16 @@ BITS AND BOBS
   align-items: center;
 }
 
-.bits-bobs--img-one {
+.jorja--one, .jorja--two {
   width: 45%;
+}
+
+.jorja--one .bits-bobs--img-one {
+  width: 100%;
+}
+.jorja--two .bits-bobs--img-one {
+  width: 150%;
+  transform: translateX(-20%);
 }
 
 .before-after--wrapper {
