@@ -64,9 +64,7 @@ scroll-behavior: smooth;
   border-right: solid 1px black;
 
   text-align: center;
-  font-family: freight-text-pro, serif;
   font-weight: 900;
-  font-style: normal; 
 }
 
 /* PROJECT LIST - GENERAL */
@@ -86,6 +84,34 @@ scroll-behavior: smooth;
   padding-top: 200px;
 
   scroll-snap-align: start;
+
+  font-weight: 700;
+}
+
+.char-hover {
+  position: relative;
+}
+
+.char-hover:after {
+  content:'';
+  position: absolute;
+  top: 20px;
+
+  background-image: url(images/mi/mecool.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 200px;
+  height: 250px;
+  overflow: hidden;
+
+  border: 1px solid black;
+
+  display: none;
+}
+
+.char-hover:hover:after {
+  display: inline-block;
 }
 
 .project {
