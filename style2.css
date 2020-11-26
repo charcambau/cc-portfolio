@@ -6,6 +6,7 @@
 body {
 margin: 0 auto;
 font-family: freight-text-pro, serif;
+scroll-behavior: smooth;
 }
 
 /* NAV */
@@ -219,12 +220,32 @@ font-family: freight-text-pro, serif;
   font-size: 14px;
 }
 
+.footer a {
+  color: black;
+  text-decoration: none;
+}
+
+/* .footer-to-top {
+  padding-right: 20px;
+}
+
+.back-top-arrow {
+  transform: rotate(-90deg);
+} */
+
 .footer-designedby {
-  margin-left: 20px;
+  align-self: stretch;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  border-right: 1px solid black;
 }
 
 .footer-next-page {
-  position: absolute;
-  left: 45%;
-  align-self: center;
+  align-self: stretch;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  border-left: 1px solid black;
 }
