@@ -7,11 +7,7 @@ body {
 margin: 0 auto;
 font-family: freight-text-pro, serif;
 scroll-behavior: smooth;
-cursor: url("images/cursor-4.png"), auto;
-}
-
-a:hover {
-  cursor: url("images/cursor-bigger_1.png"), auto;;
+cursor: url("images/cursor-triangle3.png"), auto;
 }
 
 /* NAV */
