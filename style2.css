@@ -56,6 +56,15 @@ margin: 0 auto;
   text-align: center;
 }
 
+/* test */
+.grand-txt-test {
+  font-size: 36px;
+  max-width: 60%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+
+}
+
 /* PROJECT LIST - GENERAL */
 .main-project-display {
   margin-top: 150px;
@@ -105,4 +114,65 @@ margin: 0 auto;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+/* STICKY BOTTOM */
+.bottom-fixed {
+  z-index: 0;
+  position: sticky;
+  bottom: 0;
+
+  width: 100vw;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+  border: 1px solid black;
+}
+
+.bottom-text-left {
+  border-left: 1px solid black;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.bottom-text-right {
+  border-right: 1px solid black;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.arrow-down {
+  transform: rotate(90deg);
+}
+
+/* FOOTER */
+.footer {
+  position: relative;
+  z-index: 3;
+  width: 100vw;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: white;
+  border: 1px solid black;
+  border-top: none;
+}
+
+.footer-designedby {
+  margin-left: 20px;
+}
+
+.footer-next-page {
+  position: absolute;
+  left: 45%;
+  align-self: center;
 }
