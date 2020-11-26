@@ -105,7 +105,7 @@ scroll-behavior: smooth;
   height: 250px;
   overflow: hidden;
 
-  border: 1px solid black;
+  transform: rotate(-10deg);
 
   display: none;
 }
