@@ -58,11 +58,6 @@ margin: 0 auto;
 
 /* PROJECT LIST - GENERAL */
 .main-project-display {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  width: 100vw;
   margin-top: 150px;
 }
 
@@ -75,12 +70,15 @@ margin: 0 auto;
   margin-bottom: 100px;
 }
 
-.project-image {
+.shadow-container {
   position: relative;
   align-self: center;
+  width: 60vw;
+
+  background-color: white;
 }
 
-.project-image:after {
+.shadow-container:after {
   content: "";
   position: absolute;
   width: 100%;
@@ -91,8 +89,12 @@ margin: 0 auto;
   z-index: -2;
 }
 
-.project-image:hover:after {
+.shadow-container:hover:after {
   border: 1px solid black;
+}
+
+.project-image {
+  width: 100%;
 }
 
 .project-description {
