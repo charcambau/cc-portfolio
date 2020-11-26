@@ -1,6 +1,11 @@
 /* GENERAL */
+/* IMPORT THE FONTS */
+@import url("https://use.typekit.net/xjr7bpn.css");
+@import url("https://use.typekit.net/xjr7bpn.css");
+
 body {
 margin: 0 auto;
+font-family: freight-text-pro, serif;
 }
 
 /* NAV */
@@ -19,7 +24,7 @@ margin: 0 auto;
   margin-right: 10px;
   border: solid 1px black;
 
-  background-color: white;
+  backdrop-filter: blur(5px);
 }
 
 /* LINKS ON RIGHT */
@@ -35,6 +40,10 @@ margin: 0 auto;
 .nav-about, .nav-contact {
   padding-left: 45px;
   padding-right: 45px; 
+
+  font-family: freight-sans-pro, sans-serif;
+  font-weight: 100;
+  font-size: 14px;
 }
 
 .nav-about {
@@ -54,20 +63,28 @@ margin: 0 auto;
   border-right: solid 1px black;
 
   text-align: center;
+  font-family: freight-text-pro, serif;
+  font-weight: 900;
+  font-style: normal; 
+}
+
+/* PROJECT LIST - GENERAL */
+.main-project-display {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
 }
 
 /* test */
 .grand-txt-test {
   font-size: 36px;
   max-width: 60%;
-  margin: 0 auto;
-  margin-bottom: 50px;
+  height: 100vh;
 
-}
+  margin: auto;
+  padding-top: 200px;
 
-/* PROJECT LIST - GENERAL */
-.main-project-display {
-  margin-top: 150px;
+  scroll-snap-align: start;
 }
 
 .project {
@@ -76,7 +93,25 @@ margin: 0 auto;
   justify-content: center;
 
   width: 100%;
-  margin-bottom: 100px;
+  height: 100vh;
+
+  scroll-snap-align: start;
+}
+
+.project-fendi {
+  background-color: #FFE8BF;
+}
+.project-thefork {
+  background-color:#D8FFEF;
+}
+.project-ultralight {
+  background-color:#EACFD1;
+}
+.project-hereyes {
+  background-color: #FFD3B7;
+}
+.project-treunotre {
+  background-color: #E7EFFD;
 }
 
 .shadow-container {
@@ -85,8 +120,6 @@ margin: 0 auto;
   width: 60vw;
   height: 60vh;
   overflow: hidden;
-
-  background-color: white;
 }
 
 .shadow-container:after {
@@ -120,8 +153,7 @@ margin: 0 auto;
 }
 
 /* STICKY BOTTOM */
-.bottom-fixed {
-  z-index: 0;
+/* .bottom-fixed {
   position: sticky;
   bottom: 0;
 
@@ -133,9 +165,13 @@ margin: 0 auto;
   justify-content: center;
   align-items: center;
 
-  background-color: white;
+  backdrop-filter: blur(5px);
   border: 1px solid black;
-}
+
+  font-family: freight-sans-pro, sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+} */
 
 .bottom-text-left {
   border-left: 1px solid black;
@@ -155,8 +191,8 @@ margin: 0 auto;
 
 /* FOOTER */
 .footer {
-  position: relative;
-  z-index: 3;
+  position: fixed;
+  bottom: 0;
   width: 100vw;
   height: fit-content;
 
@@ -165,9 +201,13 @@ margin: 0 auto;
   justify-content: space-between;
   align-items: center;
 
-  background-color: white;
   border: 1px solid black;
-  border-top: none;
+  background-color: none;
+  backdrop-filter: blur(5px);
+
+  font-family: freight-sans-pro, sans-serif;
+  font-weight: 100;
+  font-size: 14px;
 }
 
 .footer-designedby {
