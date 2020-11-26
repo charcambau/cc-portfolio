@@ -118,7 +118,7 @@ font-family: freight-text-pro, serif;
   position: relative;
   align-self: center;
   width: 60vw;
-  height: 60vh;
+  height: 70vh;
   overflow: hidden;
 }
 
@@ -139,6 +139,7 @@ font-family: freight-text-pro, serif;
 
 .project-image {
   width: 100%;
+  margin-top: 100px;
   /* height: 100%; */
 }
 
@@ -150,6 +151,14 @@ font-family: freight-text-pro, serif;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+.project-subject {
+  font-family: freight-sans-pro, sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+
+  text-transform: uppercase;
 }
 
 /* STICKY BOTTOM */
