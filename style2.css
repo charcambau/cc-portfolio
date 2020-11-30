@@ -186,16 +186,20 @@ h2 {
 }
 
 .project-fendi {
-  background-color: #FFE8BF;
+  /* background-color: #FFE8BF; */
+  background: linear-gradient(90deg, #FFE8BF, #ffc456);
 }
 .project-thefork {
-  background-color:#D8FFEF;
+  /* background-color:#D8FFEF; */
+  background: linear-gradient(90deg, #D8FFEF, #c1b4fd);
 }
 .project-ultralight {
-  background-color:#EACFD1;
+  /* background-color:#EACFD1; */
+  background: linear-gradient(90deg, #EACFD1, #d8f8ff);
 }
 .project-hereyes {
-  background-color: #FFD3B7;
+  /* background-color: #FFD3B7; */
+  background: linear-gradient(90deg,#FFD3B7, #80001169);
 }
 .project-treunotre {
   background-color: #E7EFFD;
