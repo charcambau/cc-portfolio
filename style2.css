@@ -77,6 +77,8 @@ h2 {
   height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
+
+  background: linear-gradient(140deg, rgba(9,9,121,1) -9%, rgba(255,235,169,1) 0%, rgba(255,208,197,1) 15%, rgba(253,234,255,1) 28%, rgba(244,236,255,1) 31%, rgba(255,255,255,1) 46%, rgba(255,255,255,1) 49%, rgba(198,246,255,1) 71%, rgba(196,255,241,1) 76%, rgba(192,255,238,1) 95%, rgba(139,255,208,1) 100%);
 }
 
 /* test */
@@ -185,25 +187,25 @@ h2 {
   scroll-snap-align: start;
 }
 
-.project-fendi {
-  /* background-color: #FFE8BF; */
+/* .project-fendi {
+  background-color: #FFE8BF;
   background: linear-gradient(90deg, #FFE8BF, #ffc456);
 }
 .project-thefork {
-  /* background-color:#D8FFEF; */
+  background-color:#D8FFEF;
   background: linear-gradient(90deg, #D8FFEF, #c1b4fd);
 }
 .project-ultralight {
-  /* background-color:#EACFD1; */
+  background-color:#EACFD1;
   background: linear-gradient(90deg, #EACFD1, #d8f8ff);
 }
 .project-hereyes {
-  /* background-color: #FFD3B7; */
+  background-color: #FFD3B7;
   background: linear-gradient(90deg,#FFD3B7, #80001169);
 }
 .project-treunotre {
   background-color: #E7EFFD;
-}
+} */
 
 .shadow-container {
   position: relative;
