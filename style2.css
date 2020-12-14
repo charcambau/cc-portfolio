@@ -78,7 +78,23 @@ h2 {
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 
+  /* RAINBOW GRADIENT */
   background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,235,169,1) 0%, rgba(255,255,255,1) 0%, rgba(255,208,197,1) 0%, rgba(253,234,255,1) 26%, rgba(244,236,255,1) 41%, rgba(198,246,255,1) 60%, rgba(196,255,241,1) 77%, rgba(192,255,238,1) 95%, rgba(139,255,208,1) 100%);
+
+  /* RAINBOW 2 */
+  /* background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,235,169,1) 0%, rgba(255,255,255,1) 0%, rgba(198,255,221,1) 0%, rgba(251,215,134,1) 50%, rgba(247,121,125,1) 100%); */
+
+  /* YELLOW-ORANGE GRADIENT */
+  /* background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,235,169,1) 0%, rgba(255,255,255,1) 0%, rgba(255,208,197,1) 0%, rgba(255,239,186,1) 37%, rgba(255,255,255,1) 94%); */
+
+  /* GREEN-BLUE GRADIENT */
+  /* background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,235,169,1) 0%, rgba(255,255,255,1) 0%, rgba(215,255,219,1) 0%, rgba(137,255,253,1) 100%); */
+
+  /* Dark to light purple gradient */
+  /* background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,235,169,1) 0%, rgba(255,255,255,1) 0%, rgba(218,226,248,1) 0%, rgba(218,226,248,1) 15%, rgba(189,182,226,1) 100%); */
+
+  /* Dark to light grey gradient */
+  /* background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,235,169,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(7,101,133,1) 100%); */
 }
 
 /* test */
@@ -340,4 +356,13 @@ h2 {
   padding-left: 20px;
 
   border-left: 1px solid black;
+}
+
+
+/********************* 
+PROJECT PAGES -- FENDI
+**********************/
+
+.fendi-project-main {
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,232,191,1) 0%, rgba(249,185,73,1) 100%);
 }
