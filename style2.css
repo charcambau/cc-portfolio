@@ -201,27 +201,10 @@ h2 {
   height: 100vh;
 
   scroll-snap-align: start;
-}
 
-/* .project-fendi {
-  background-color: #FFE8BF;
-  background: linear-gradient(90deg, #FFE8BF, #ffc456);
+  text-decoration: none;
+  color: black;
 }
-.project-thefork {
-  background-color:#D8FFEF;
-  background: linear-gradient(90deg, #D8FFEF, #c1b4fd);
-}
-.project-ultralight {
-  background-color:#EACFD1;
-  background: linear-gradient(90deg, #EACFD1, #d8f8ff);
-}
-.project-hereyes {
-  background-color: #FFD3B7;
-  background: linear-gradient(90deg,#FFD3B7, #80001169);
-}
-.project-treunotre {
-  background-color: #E7EFFD;
-} */
 
 .shadow-container {
   position: relative;
@@ -231,25 +214,14 @@ h2 {
   overflow: hidden;
 }
 
-.shadow-container:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-
-  top: -20px;
-  left: 20px;
-  z-index: -2;
-}
-
-.shadow-container:hover:after {
-  border: 1px solid black;
-}
-
 .project-image {
   width: 100%;
-  margin-top: 100px;
-  /* height: 100%; */
+  /* margin-top: 100px; */
+}
+
+.project-image-fendi {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .project-description {
@@ -358,11 +330,220 @@ h2 {
   border-left: 1px solid black;
 }
 
+/************************ 
+PROJECT PAGES -- GENERAL
+*************************/
+
+.project-main {
+  height: 100vh;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.project-end-details {
+  margin-bottom: 100px;
+  scroll-snap-align: start;
+  padding-top: 120px;
+}
+
+.project-intro-global {
+  display: flex;
+  flex-direction: row;
+
+  width: 75%;
+  height: 75vh;
+  margin: 0 auto;
+  margin-top: 120px;
+
+  scroll-snap-align: start;
+  padding-top: 120px;
+}
+
+.project-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page-h1 {
+  font-size: 56px;
+  font-weight: 900;
+
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.project-theme {
+  font-family: freight-sans-pro, sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.thiswas {
+  padding-right: 5px;
+}
+
+.with, .when, .what {
+  font-family: freight-sans-pro, sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.when, .what {
+  padding-left: 45px;
+}
+
+.project-intro-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+.project-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-img {
+  scroll-snap-align: start;
+  padding-top: 120px;
+}
+
+/* project images */
+.project-body img {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.project-body .project-img-two {
+  width: 50%;
+}
+
+.project-body .project-img-three {
+  width: 60%;
+}
+
+.project-body .project-img-four {
+  width: 30%;
+}
+
+.project-body .project-img-five {
+  width: 50%;
+}
+
+/* project details */
+.project__about, .project__material {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.work__title--project {
+  margin-top: 20px;
+  margin-left: 50px;
+
+  text-align: right;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+  font-size: 34px;
+}
+
+.details-container {
+  width: 50%;
+  height: fit-content;
+  margin: 0 auto;
+  padding: 20px;
+
+  border: 1px solid black;
+}
+
+.material-colors {
+  border-top: 1px solid black;
+  margin: 0;
+  width: 100%;
+}
+
+.project-end-details-madeon {
+  padding-top: 220px;
+}
+
+.extra-space {
+  height: 5px;
+}
 
 /********************* 
 PROJECT PAGES -- FENDI
 **********************/
 
+.fendi-body {
+  height: 100vh;
+  overflow: scroll;
+}
+
+/* fendi project details */
+.work__description--project {
+  color: transparent;
+}
+
+.details:hover .work__description--project {
+  color: #000000;
+}
+
+.details:hover .length {
+  color: #000000;
+}
+
+.details:hover .fendi-primary-color {
+  color: #f9b949;
+  -webkit-text-stroke-color: #f9b949;
+}
+
+.details:hover .fendi-secondary-color {
+  color: #343A41;
+  -webkit-text-stroke-color: #343A41;
+}
+
+/* THE FORK */
+
 .fendi-project-main {
-  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,232,191,1) 0%, rgba(249,185,73,1) 100%);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,218,154,1) 0%, rgba(249,185,73,1) 100%);
+}
+
+.fork-project-main {
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(239,255,248,1) 0%, rgba(28,244,144,1) 100%);
+}
+
+.project-body .fork-project-img-two {
+  width: 100%;
+}
+
+.project-body .fork-project-img-three {
+  width: 100%;
+}
+
+.project-body .fork-project-img-four {
+  width: 60%;
+  padding-top: 160px;
+}
+
+.details:hover .fork-primary-color {
+  color: #1cf490;
+  -webkit-text-stroke-color: #1cf490;
+}
+
+.details:hover .fork-secondary-color {
+  color: #773dd4;
+  -webkit-text-stroke-color: #773dd4;
 }
