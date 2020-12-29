@@ -515,7 +515,9 @@ PROJECT PAGES -- FENDI
   -webkit-text-stroke-color: #343A41;
 }
 
-/* THE FORK */
+/***************** 
+THE FORK 
+*****************/
 
 .fendi-project-main {
   background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,218,154,1) 0%, rgba(249,185,73,1) 100%);
@@ -523,6 +525,10 @@ PROJECT PAGES -- FENDI
 
 .fork-project-main {
   background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(239,255,248,1) 0%, rgba(28,244,144,1) 100%);
+}
+
+.ultralight-project-main {
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(255,173,208,1) 100%);
 }
 
 .project-body .fork-project-img-two {
@@ -546,4 +552,39 @@ PROJECT PAGES -- FENDI
 .details:hover .fork-secondary-color {
   color: #773dd4;
   -webkit-text-stroke-color: #773dd4;
+}
+
+
+/*******************
+PROJECT - ULTRALIGHT 
+*******************/
+.double-prez {
+  position: relative;
+
+  overflow: hidden;
+  height: 100vh;
+}
+
+.double-one {
+  position: relative;
+  z-index: 1;
+}
+
+.double-two {
+  position: absolute;
+  top: 50;
+  right: 0;
+  z-index: 0;
+
+  height: 70vh;
+}
+
+.details:hover .ultra-primary-color {
+  color: #ff0067;
+  -webkit-text-stroke-color: #ff0067;
+}
+
+.details:hover .ultra-secondary-color {
+  color: #000000;
+  -webkit-text-stroke-color: #000000;
 }
