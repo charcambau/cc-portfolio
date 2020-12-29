@@ -298,6 +298,8 @@ h2 {
   font-family: freight-sans-pro, sans-serif;
   font-weight: 100;
   font-size: 14px;
+
+  z-index: 5;
 }
 
 .footer a {
@@ -577,6 +579,10 @@ PROJECT - ULTRALIGHT
   z-index: 0;
 
   height: 70vh;
+}
+
+.ultra-project-img-two, .ultra-project-img-three, .ultra-project-img-four {
+  padding-top: 10px;
 }
 
 .details:hover .ultra-primary-color {
