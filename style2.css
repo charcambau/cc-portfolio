@@ -533,6 +533,10 @@ THE FORK
   background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(255,173,208,1) 100%);
 }
 
+.through-project-main {
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,211,183,1) 0%, rgba(255,211,183,1) 10%, rgba(255,157,97,1) 100%);
+}
+
 .project-body .fork-project-img-two {
   width: 100%;
 }
@@ -593,4 +597,39 @@ PROJECT - ULTRALIGHT
 .details:hover .ultra-secondary-color {
   color: #000000;
   -webkit-text-stroke-color: #000000;
+}
+
+/*************************
+PROJECT - THROUGH HER EYES 
+*************************/
+
+.thiswas-through {
+  max-width: 650px;
+}
+
+.project-body .through-project-img-two {
+  width: 60%;
+}
+
+.project-body .through-project-img-three {
+  width: 45%;
+}
+
+.project-body .through-project-img-four {
+  width: 70%;
+  padding-top: 160px;
+}
+
+.project-body .through-project-img-five {
+  width: 40%;
+}
+
+.details:hover .through-primary-color {
+  color: #7E0207;
+  -webkit-text-stroke-color: #7E0207;
+}
+
+.details:hover .through-secondary-color {
+  color: #FF9D61;
+  -webkit-text-stroke-color: #FF9D61;
 }
