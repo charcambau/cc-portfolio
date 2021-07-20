@@ -1,0 +1,42 @@
+/* GENERAL */
+/* IMPORT THE FONTS */
+@import url("https://use.typekit.net/xjr7bpn.css");
+@import url("https://use.typekit.net/xjr7bpn.css");
+
+body {
+  margin: 0 auto;
+  font-family: 'Roboto Slab', serif;
+  scroll-behavior: smooth;
+  cursor: url("images/cursor-triangle3.png"), auto;
+  }
+  
+h2 {
+  font-weight: 900;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+
+  z-index: 2;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-right: 10px;
+  /* border: solid 1px black; */
+
+  backdrop-filter: blur(5px);
+}
+
+.my-name {
+  text-decoration: none;
+  color: black;
+  font-size: 36px;
+
+  max-width: 100px;
+  line-height: 1.3em;
+}

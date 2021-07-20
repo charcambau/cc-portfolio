@@ -5,91 +5,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Charlotte Cambau">
   <meta name="keywords" content="ux, ui, front-end, web designer, web design">
+  <link rel="stylesheet" href="https://use.typekit.net/xjr7bpn.css">
+  <link rel="stylesheet" href="https://use.typekit.net/xjr7bpn.css">
+  <link rel="stylesheet" href="https://use.typekit.net/xjr7bpn.css">
+  <link rel="stylesheet" href="https://use.typekit.net/xjr7bpn.css">
   <link rel="stylesheet" href="style2.css">
+  <!-- <link rel="stylesheet" href="style3.css"> -->
   <title>Charlotte Cambau's portfolio</title>
 </head>
 <body>
   <header>
-    <nav class="nav nav-home">
-      <a class="my-name" href="home.html"><h1>Charlotte Cambau</h1></a>
-      <div class="header-nav">
-        <a class="nav-item nav-about" href="#">about me</a>
-        <a class="nav-item nav-contact" href="#">contact me</a>
-      </div>
+    <nav class="nav-wrapper">
+      <h1 class="my-name">Charlotte Cambau</h1>
+      <ul class="nav-list">
+        <li class="nav-list--item nav--about">About</li>
+        <li class="nav-list--item nav--cv"><a href="CV-charlotte_cambau.pdf" download>CV</a></li>
+      </ul>
     </nav>
   </header>
   <main>
-    <section class="main-project-display">
-      <p class="grand-txt-test">
-        Hi there. My name's <span class="char-hover">Charlotte</span>, I'm a <span class="digital-designer">digital designer</span>, front-end developer, <span class="digital-creator">digital creator</span>... I design online platforms and create satisfying user journeys. <span class="span-work">Have a look at my work:</span>
-        <span class="scroll">(scroll to explore)</span>
-        <!-- <img class="intro-collage" id="moveImages" src="images/collage-1920.png" alt="collage of my works"> -->
+    <section class="content-wrapper">
+      <p class="text-regular paragraph-main">
+        Lorem ipsum dolor sit amet, <span class="text-different">condimentum</span> adipiscing elit. Duis. <span class="text-different">consectetuer</span> augue id magna semper rutrum. Nulla pulvinar eleifend sem. Maecenas libero. Duis viverra <span class="text-different">diam</span> non justo. Donec quis nibh at felis congue commodo. 
       </p>
-      <a href="project-Fendi.html" class="project project-fendi">
-        <div class="shadow-container">
-         <img class="project-image project-image-fendi" src="images/Fendi/new-intro-img.png" alt="Fendi app interface in an Ipad on a yellow background" width="60%" height="auto">
-        </div>
-        <div class="project-description">
-          <h2 class="project-name project-name-fendi">Fendi - Made to Order</h2>
-          <p class="project-subject project-subject-fendi">UI design</p>
-        </div>
-      </a>
-      <a href="project-thefork.html" class="project project-thefork">
-        <div class="shadow-container">
-          <img class="project-image project-image-thefork" src="images/TheFork/TheFork-transparent.png" alt="The Fork app interface in an Iphone on a purple background" width="60%" height="auto">
-        </div>
-        <div class="project-description">
-          <h2 class="project-name project-name-thefork">The Fork</h2>
-          <p class="project-subject project-subject-thefork">UX design</p>
-        </div>
-      </a>
-      <a href="project-ultralight.html" class="project project-ultralight">
-        <div class="shadow-container shadow-container-ultra">
-          <img class="project-image project-image-ultralight" src="images/Ultralight/ultralight.png" alt="a magazine cover with an image of upside down cup of coffee, and the title Ultralight Beam" width="60%" height="auto">
-        </div>
-        <div class="project-description">
-          <h2 class="project-name project-name-ultralight">Ultralight Beam</h2>
-          <p class="project-subject project-subject-ultralight">Editorial design</p>
-        </div>
-      </a>
-      <a href="project-Fendi.html" class="project project-hereyes">
-        <div class="shadow-container">
-          <img class="project-image project-image-hereyes" src="images/ThroughHerEyes/Through-transparent.png" alt="an instagram interface" width="60%" height="auto">
-        </div>
-        <div class="project-description">
-          <h2 class="project-name project-name-hereyes">Through her eyes</h2>
-          <p class="project-subject project-subject-hereyes">Game design</p>
-        </div>
-      </a>
-      <a href="project-Fendi.html" class="project project-treunotre">
-        <div class="shadow-container">
-          <img class="project-image project-image-treunotre" src="images/313/tilda big.png" alt="A computer with the 313 website inside it" width="60%" height="auto">
-        </div>
-        <div class="project-description">
-          <h2 class="project-name project-name-treunotre">313 (Tre Uno Tre)</h2>
-          <p class="project-subject project-subject-treunotre">Identity design</p>
-        </div>
-      </a>
     </section>
-    <!-- <section class="bottom-fixed">
-      <p class="bottom-text-left">scroll</p>
-      <img class="arrow-down" src="images/arrow-bigger.png" alt="black arrow" width="10px">
-      <p class="bottom-text-right">down</p>
-    </section> -->
+    <section class="project-wrapper">
+      <article class="project project-one">
+        <img src="images/Fendi/new-intro-img.png" alt="Fendi app interface in an Ipad on a yellow background">
+      </article>
+      <article class="project project-two">
+        <img src="images/Fendi/new-intro-img.png" alt="Fendi app interface in an Ipad on a yellow background">
+      </article>
+      <article class="project project-three">
+        <img src="images/Fendi/new-intro-img.png" alt="Fendi app interface in an Ipad on a yellow background">
+      </article>
+      <article class="project project-four">
+        <img src="images/Fendi/new-intro-img.png" alt="Fendi app interface in an Ipad on a yellow background">
+      </article>
+    </section>
+
+    <p class="scroll-indicator">scroll</p>
   </main>
-  <footer class="footer">
-    <div class="footer-designedby">
-      <p>Designed and developed by Charlotte Cambau</p>
-    </div>
-    <div class="footer-next-page">
-      <a href="#">About me</a>
-      <img class="next-page-arrow" src="images/arrow.png" alt="black arrow" width="15px">
-    </div>
-    <!-- <div class="footer-to-top">
-      <a href="#top">Back to top</a>
-      <img class="back-top-arrow" src="images/arrow-bigger.png" alt="black arrow" width="10px">
-    </div> -->
-  </footer>
-  <!-- <script src="new-home-script.js"></script> -->
 </body>
 </html>
